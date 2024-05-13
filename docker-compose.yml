@@ -3,7 +3,7 @@ services:
   app:
     build: .
     # dockerfile: Dockerfile
-    container_name: 'poetry_env'
+    container_name: 'arxiv-rag'
     working_dir: '/workspace'
     volumes:
       - ./:/workspace/
